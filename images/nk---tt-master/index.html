@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="asset/css/bootstrap.css">
+        <link rel="stylesheet" href="asset/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row p-3">
+
+                <div class="col"></div>
+
+                <div class=" card col-4 shadow height500">
+                   
+                    <div id="resultat" class="row">
+                        <div class="col-12 bg-light p-3">
+                            <input id="output" class=" height75 w-100 b-none text-right display-4 p-2 bg-light font-weight-bold" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 bg-light height50 b-top shadow">
+                            <input id="output2" class=" height25 w-100 b-none text-right bg-light text-muted font-weight-bold p-3"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 w-100 height350 pt-3 b-top">
+                            <div class="row  p-2 mx-auto h-40">
+                                <div class="col  textAlign">
+                                    <button class="btn btn-light b-r w-100 shadow" onclick="effacer()"><b>C</b></button>
+                                </div>
+                                <div class="col  textAlign">
+                                    <button class="btn btn-light b-r w-100 shadow" onclick="afficher('%')"><b>%</b></button>
+                                </div>
+                                <div class="col  textAlign">
+                                    <button class="btn btn-light b-r w-100 shadow" onclick="afficher('()')" ><b>()</b></button>                                 
+                                </div>
+                                <div class="col  textAlign">
+                                    <button class="btn btn-light b-r w-100 shadow" onclick="afficher('*')"><b>X</b></button>
+                                </div>
+                            </div>
+                            <div class="row p-2 mx-auto h-40">
+                                <div class="col  textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('1')">1</button>
+                                </div>
+                                <div class="col  textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('2')">2</button>    
+                                </div>
+                                <div class="col  textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('3')">3</button>
+                                </div>
+                                <div class="col  textAlign">
+                                    <button class="btn btn-danger b-r w-100 shadow" onclick="afficher('-')"><b>-</b></button>
+                                </div>
+                            </div>
+                            <div class="row p-2 mx-auto h-40">
+                                <div class="col  textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('4')">4</button>
+                                </div>
+                                <div class="col textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('5')">5</button>
+                                </div>
+                                <div class="col textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('6')">6</button>
+                                </div>
+                                <div class="col textAlign">
+                                    <button class="btn btn-danger b-r w-100 shadow" onclick="afficher('/')"><b>&divide;</b></button>    
+                                </div>
+                            </div>
+                            <div class="row p-2 mx-auto h-40">
+                                <div class="col textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('7')">7</button>
+                                </div>
+                                <div class="col textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('8')">8</button>
+                                </div>
+                                <div class="col textAlign">
+                                    <button class="btn border w-100 shadow" onclick="afficher('9')">9</button>
+                                </div>
+                                <div class="col textAlign">
+                                    <button class="btn btn-danger b-r w-100 shadow h-100" onclick="afficher('+')"><b>+</b></button>
+                                </div>
+                            </div>
+                            <div class="row p-2 mx-auto justify-content-center">
+                                <div class="col textAlign ">
+                                    <button class="btn border w-100 shadow" onclick="afficher('0')">0</button>
+                                </div>
+                                <div class="col textAlign ">
+                                    <button class="btn border w-100 shadow" onclick="afficher('.')">.</button>
+                                </div>
+                                <div class="col-6 textAlign">
+                                    <button class="btn btn-success border w-100 shadow" onclick="calculer()"><b>=</b></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col"></div>
+
+            </div>
+        </div>
+        <script src="./asset/js/scripts.js"></script>
+        </body>
+</html>

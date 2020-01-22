@@ -1,0 +1,42 @@
+.height500
+{
+    height: 500px;
+}
+.height350
+{
+    height: 350px;
+}
+.height75
+{
+    height: 75px;
+}
+.height50
+{
+    height: 50px;
+}
+.height25
+{
+    height: 25px;
+}
+.textAlign
+{
+    text-align: center;
+}
+.border
+{
+    border: solid grey;
+    border-radius: 15px;
+}
+.b-top
+{
+    border-top: 1px solid darkgrey;
+}
+.b-r
+{
+    border: solid 1px grey;
+    border-radius: 50%;
+}
+.b-none
+{
+    border: none;
+}
